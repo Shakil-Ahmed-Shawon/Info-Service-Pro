@@ -1,0 +1,271 @@
+@media (min-width: 1000px) and (max-width: 1100px){
+    
+    body{
+        background-position: 100px -300px;
+    }
+    
+    /* Header Section - Start */
+
+    .header-container{
+        width: 90%;
+    }
+
+    .nav-bar-container{
+        width: 60%;
+    }
+    .nav-menu{
+        font-size: 1.4vw;
+        width: 72%;
+    }
+    .nav-sub-menu{
+        left: 43px;
+        padding: 15px;
+    }
+    .nav-sub-menu-child{
+        left: 145px;
+        padding: 15px;
+    }
+    /* Header Section - End */
+
+               /* Main Section - Start */
+
+    /* Hero Section - Start */
+    .hero-container{
+        width: 90%;
+    }
+    .hero-texts h6{
+       font-size: 1vw;
+    }
+    .hero-texts h1{
+        width: 85%;
+        font-size: 4vw;
+    }
+    .hero-texts p{
+        width: 85%;
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+    .hero-image{
+        width: 49%;
+    }
+                /* Hero Section - End */
+
+                /* Features Section - Start */
+
+    .features-container{
+        width: 90%;
+    }
+
+    .feature-text h6{
+        font-size: 1vw;
+    }
+
+    .feature-text h1{
+        font-size: 4vw;
+    }
+
+    .feature-text p{
+        width: 85%;
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+
+    .feature-box{
+        width: 18%;
+    }
+
+    .feature-box i{
+        font-size: 5.2vw;
+    }
+
+    .feature-box h4{
+        font-size: 1.6vw;
+    }
+
+    .feature-box p{
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+                /* Features Section - End */
+
+                /* Agency Section - Start */
+
+    .agency-container{
+        width: 90%;
+    }
+
+    .agency-texts{
+        width: 37%;
+    }
+
+    .agency-texts h6{
+        font-size: 1vw;
+    }
+
+    .agency-texts h1{
+        font-size: 4vw;
+    }
+
+    .agency-texts p{
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+
+    .agency-texts .fa-check{
+        margin: 0 8px 3px 0;
+        font-size: 1.4vw;
+    }
+    
+    .agency-texts span{
+        margin-bottom: 3px;
+        font-size: 1.4vw;
+    }
+                 /* Agency Section - End */
+
+                 /* Service Section - Start */
+
+    .services-container{
+        width: 65%;
+    }
+
+    .services-title h6{
+        font-size: 1vw;
+    }
+
+    .services-title h1{
+        font-size: 4vw;
+    }
+
+    .services-box{
+        width: 43%;
+    }
+
+    .services-box i{
+        font-size: 4vw;
+    }
+
+    .service-box-text h4{
+        font-size: 1.5vw;
+    }
+
+    .service-box-text p{
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+
+     /* Service Section - End */
+
+     /* Testimonials Section - Start */
+
+    .testimonials-texts{
+        width: 56%;
+    }
+
+    .testimonials-texts h6{
+        font-size: 1vw;
+    }
+
+    .testimonials-texts h1{
+        font-size: 4vw;
+    }
+
+    .testimonials-texts p{
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+    
+    .testimonials-box-bg{
+        width: 90%;
+    }
+
+    .testimonials-box{
+        width: 21%;
+        padding: 15px 60px 20px 40px;
+    }
+
+    .person-img{
+        width: 16%;
+    }
+
+    .testimonials-box p{
+        font-size: 1.4vw;
+        line-height: 18px;
+    }
+
+    .person-details h5{
+        font-size: 1.4vw;
+    }
+
+    .person-details span{
+        font-size: 1.3vw;
+    }
+
+    .person-details{
+        margin-top: 30px;
+    }
+
+             /* Testimonials Section - End */
+
+                            /* Main Section - End */ 
+
+             /* Footer Section - Start */
+
+             .footer-container{
+                width: 90%;
+            }
+
+            .about-site{
+                width: 30%;
+            }
+
+            .about-site h6{
+                font-size: 1.5vw;
+            }
+
+            .about-site p{
+                font-size: 1.4vw;
+                line-height: 18px;
+            }
+
+            .about-site span{
+                width: 30px;
+                height: 30px;
+            }
+
+            .pages h6{
+                font-size: 1.5vw;
+            }
+
+            .pages .pages-li{
+                font-size: 1.4vw;
+                line-height: 26px;
+            }
+
+            .resourecs h6{
+                font-size: 1.4vw;
+            }
+
+            .resourecs .Resourecs-li{
+                font-size: 1.4vw;
+                line-height: 26px;
+            }
+
+            .contact h6{
+                font-size: 1.4vw;
+            }
+
+            .contact{
+                font-size: 1.4vw;
+            }
+
+                         /* Footer Section - End */
+
+                         /* Copyright section - Start */
+
+            .copyright{
+                font-size: 1.4vw;
+            }
+
+                         /* Copyright section - End */
+
+}
