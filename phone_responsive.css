@@ -1,0 +1,381 @@
+@media (min-width: 300px) and (max-width: 400px){
+    body{
+        background-position: -500px -200px;
+    }
+
+    /* Header Section - Start */
+
+    .header-container{
+        width: 92%;
+    }
+
+    .nav-bar-container{
+        width: auto;
+    }
+
+    .nav-bar-container .check-menu-phone{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .mobile-download-btn{
+        display: block;
+    }
+
+    .nav-menu-phone{
+        display: none;
+        width: 200px;
+        height: 630px;
+        padding: 30px 0px 0 40px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        top: 35px;
+        right: -12px;
+        background-color: white;
+    }
+
+    .nav-sub-menu, .nav-sub-menu-child{
+        display: none;
+        opacity: 1;
+    }
+
+    .nav-sub-menu{
+        width: auto;
+        height: auto;
+        position: initial;
+        top: auto;
+        left: auto;
+        padding: 16px 15px 0px;
+        box-shadow: none;
+        line-height: 20px;
+    }
+
+    .nav-menu li:nth-child(2):hover .nav-sub-menu{
+        display: block;
+    }
+
+    .nav-sub-menu .fa-angle-right{
+        display: none;
+    }
+
+    .nav-sub-menu .fa-chevron-down{
+       display: inline-block;
+    }
+
+    .nav-sub-menu-child{
+        width: auto;
+        position: initial;
+        top: auto;
+        left: auto;
+        box-shadow: none;
+        padding: 16px 15px 0px;
+        line-height: 20px;
+    }
+
+    .nav-sub-menu li:nth-child(2):hover .nav-sub-menu-child{
+        display: block;
+    }
+
+    #check_menu:checked ~ .nav-menu-phone{
+        display: block;
+    }
+
+    .nav-menu-phone li{
+        padding-bottom: 10px;
+    }
+
+    .nav-bar-container .download-btn{
+        display: none;
+    }
+
+    /* .nav-bar-container{
+        display: none;
+    } */
+
+    /* Header Section - End */
+
+        /* Main Section - Start */
+
+        main{
+            margin: 60px 0 30px 0;
+        }
+
+    /* Hero Section - Start */
+
+    .hero-container{
+        width: 92%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-texts{
+        width: 100%;
+    }
+
+    .hero-texts h6{
+        font-size: 0.77rem;
+    }
+
+    .hero-texts h1{
+        font-size: 2.2rem;
+    }
+
+    .hero-texts p{
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .hero-texts .hero-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-btn{
+        margin: 10px 0;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    /* Hero Section - End */
+
+    /* Features Section - Start */
+
+    .features-container{
+        width: 90%;
+    }
+
+    .feature-text{
+        width: 100%;
+    }
+
+    .feature-text h6{
+        font-size: 0.77rem;
+    }
+
+    .feature-text h1{
+        font-size: 2.2rem;
+    }
+
+    .feature-text p{
+        font-size: 1rem;
+    }
+
+    .feature-box-bg{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .feature-box{
+        width: 88%;
+        margin-bottom: 40px;
+    }
+
+    .feature-box i{
+        font-size: 2.5rem;
+    }
+
+    .feature-box h4{
+        font-size: 1rem;
+    }
+
+    .feature-box p{
+        font-size: 1rem;
+    }
+
+    /* Features Section - End */
+
+    /* Agency Section - Start */
+
+    .agency-container{
+        width: 90%;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .agency-img{
+        width: 100%;
+    }
+    
+    .agency-img img{
+        width: 100%;
+    }
+
+    .agency-texts{
+        width: 100%;
+    }
+
+    .agency-texts h6{
+        margin-top: 10px;
+        font-size: 0.77rem;
+    }
+
+    .agency-texts h1{
+        font-size: 2.2rem;
+    }
+
+    .agency-texts p{
+        font-size: 1rem;
+    }
+
+    .agency-texts .fa-check{
+        font-size: 1rem;
+    }
+
+    .agency-texts span{
+        font-size: 1rem;
+    }
+
+    /* Agency Section - End */
+
+    /* Service Section - Start */
+
+    .services-container{
+        width: 90%;
+        margin: 150px 0 80px 0;
+    }
+
+    .services-title{
+        margin-bottom: 50px;
+    }
+
+    .services-title h6{
+        font-size: 0.77rem;
+    }
+
+    .services-title h1{
+        font-size: 2.2rem;
+    }
+
+    .services-box{
+        width: 100%;
+        padding: 30px 15px 10px 25px;
+    }
+
+    .services-box i{
+        font-size: 2.3rem;
+    }
+
+    .service-box-text{
+        width: 60%;
+        margin-left: 30px; 
+    }
+
+    .service-box-text h4{
+        font-size: 1rem;
+    }
+
+    .service-box-text p{
+        margin-top: 8px;
+        font-size: 1rem;
+    }
+
+    /* Service Section - End */
+
+    /* Testimonials Section - Start */
+
+    .testimonials-texts{
+        width: 90%;
+    }
+
+    .testimonials-texts h6{
+        font-size: 0.77rem;
+    }
+
+    .testimonials-texts h1{
+        font-size: 2.2rem;
+    }
+
+    .testimonials-texts p{
+        font-size: 1rem;
+    }
+
+    .testimonials-box-bg{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .testimonials-box{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .testimonials-box p{
+        font-size: 1rem;
+    }
+
+    .person-details h5{
+        font-size: 0.98rem;
+    }
+
+    .person-details span{
+        font-size: 0.9rem;
+    }
+
+    /* Testimonials Section - End */
+
+        /* Main Section - End */
+
+    /* Footer Section - Start */
+
+    footer{
+        padding: 0;
+    }
+
+    .footer-container{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .about-site{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-site h6{
+        font-size: 1rem;
+    }
+
+    .about-site p{
+        font-size: 1rem;
+    }
+
+    .about-site span{
+        width: 30px;
+        height: 30px;
+    }
+
+    .pages h6{
+        font-size: 1rem;
+    }
+
+    .pages .pages-li{
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .resourecs h6{
+        font-size: 1rem;
+    }
+
+    .resourecs .Resourecs-li{
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .contact h6{
+        font-size: 1rem;
+    }
+
+    /* Footer Section - End */
+
+    /* Copyright section - Start */
+
+    .copyright{
+        margin-top: 35px;
+    }
+}

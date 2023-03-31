@@ -31,6 +31,10 @@ header{
     position: relative;
 }
 
+.nav-bar-container .check-menu-phone, .nav-bar-container #check_menu{
+    display: none;
+}
+
 .nav-menu{
     margin: 0;
     padding: 0;
@@ -71,6 +75,10 @@ header{
     padding: 12px 0;
 }
 
+.nav-sub-menu .fa-chevron-down{
+    display: none;
+}
+
 .nav-sub-menu, .nav-sub-menu-child{
     visibility: hidden;
     opacity: 0;
@@ -95,6 +103,7 @@ header{
 
 .nav-sub-menu .fa-angle-right{
     padding-left: 35px;
+    display: inline-block;
 }
 
 .nav-sub-menu li:nth-child(2):hover .nav-sub-menu-child{
@@ -107,12 +116,16 @@ header{
     width: 135px;
     position: absolute;
     top: 130px;
-    left: 160px;
+    left: 162px;
     padding: 20px;
     background-color: white;
     line-height: 30px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     transition: all 0.3s linear 0.1s;
+}
+
+.mobile-download-btn{
+    display: none;
 }
 
 .download-btn{
@@ -402,17 +415,14 @@ main{
 
 .services-box{
     width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 30px 10px 10px 20px;
     border: 1px solid rgb(247, 246, 246);
     border-radius: 10px;
     margin-bottom: 23px;
     background-color: rgb(248, 249, 250);
-}
-
-.services-box{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .services-box i{
@@ -423,8 +433,7 @@ main{
 
 .service-box-text{
     width: 66%;
-    margin-left: 25px;
-    
+    margin-left: 25px; 
 }
 
 .service-box-text h4{

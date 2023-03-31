@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="laptop_responsive.css">
     <link rel="stylesheet" href="tablet_responsive.css">
-    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="phone_responsive.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/3356cf3b6d.js" crossorigin="anonymous"></script>
     <title>Service Pro</title>
 </head>
@@ -20,12 +21,16 @@
             </div>
 
             <div class="nav-bar-container">
-                <ul class="nav-menu">
+                                <!-- For Mobile - Menu -->
+                <label class="check-menu-phone" for="check_menu"><i class="fa-solid fa-bars"></i></label>
+                <input id="check_menu" type="checkbox">
+                               <!-- For Mobile - Menu -->
+                <ul class="nav-menu nav-menu-phone">
                     <li><a href="#" class="solid-color">Home</a></li>
                     <li><a href="#" class="give-paddin">Dropdown <i class="fa-solid fa-chevron-down"></i></a> 
                         <ul class="nav-sub-menu">
                             <li><a href="#">Menu One</a></li>
-                            <li><a href="#">Menu Two <i class="fa-solid fa-angle-right"></i></a>
+                            <li><a href="#">Menu Two <i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-chevron-down"></i></a>
                                 <ul class="nav-sub-menu-child">
                                     <li><a href="#">Sub menu One</a></li>
                                     <li><a href="#">Sub menu Two</a></li>
@@ -39,6 +44,7 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Contact Us</a></li>
+                    <li class="mobile-download-btn"><a href="#">Download Now</a></li>
                 </ul>
 
                 <a href="#"><button class="download-btn">
