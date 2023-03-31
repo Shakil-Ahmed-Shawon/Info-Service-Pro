@@ -13,6 +13,10 @@
         width: auto;
     }
 
+    .nav-bar-container #check_menu{
+        display: none;
+    }
+
     .nav-bar-container .check-menu-phone{
         display: block;
         font-size: 1.5rem;
@@ -81,6 +85,8 @@
     #check_menu:checked ~ .nav-menu-phone{
         display: block;
     }
+
+
 
     .nav-menu-phone li{
         padding-bottom: 10px;
