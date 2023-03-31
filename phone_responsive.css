@@ -382,6 +382,8 @@
     /* Copyright section - Start */
 
     .copyright{
+        width: 95%;
         margin-top: 35px;
+        line-height: 25px;
     }
 }
